@@ -1,0 +1,149 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 800px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #0073e6;
+}
+
+.nav a:last-child {
+  margin-right: 0;
+}
+
+.account-btn {
+  border: 1px solid #0073e6;
+  border-radius: 4px;
+  background: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #0073e6;
+}
+
+
+
+
+.form-section {
+  flex: 1;
+  padding: 20px 30px;
+  border-right: 1px solid #ddd;
+}
+
+.form-section h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  width: 100%;
+  background-color: #2ca05a;
+  color: #fff;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #238c4b;
+}
+
+.info-section {
+  flex: 1;
+  background: linear-gradient(135deg, #0060c1, #004aad);
+  color: #fff;
+  padding: 30px;
+}
+
+.info-section h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info-section p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.info-section ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.info-section ul li {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.testimonial img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.testimonial p {
+  font-size: 14px;
+  margin: 0;
+}
+
+  

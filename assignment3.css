@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d4d0e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background-color: white;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+  position: relative;
+  text-align: left;
+}
+
+.badge {
+  background-color: #ffeeba;
+  color: #333;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  position: absolute;
+  top: 10px;
+  left:-10px;
+  border-radius: 10px;
+  
+}
+
+.product-image {
+  width: 350px;
+  height: auto;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.title {
+  font-size: 18px;
+  margin: 0;
+}
+
+.series {
+  font-size: 14px;
+  font-weight: normal;
+  color: #666;
+}
+
+.description {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+  line-height: 1.5;
+}
