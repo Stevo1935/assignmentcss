@@ -1,0 +1,349 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  line-height: 1.6;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+} 
+/* Hero Section */
+.hero {
+  background: linear-gradient(to bottom, #fff, #fef9e7);
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.hero-content {
+  margin-bottom: 40px;
+}
+.hero h1 {
+  font-size: 40px;
+  max-width: 800px;
+  margin: 0 auto 20px;
+}
+.hero p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+.sign-up-btn {
+  margin: 0 0 20px;
+}
+.learn-more {
+  display: block;
+  font-size: 16px;
+  text-decoration: underline;
+}
+.illustration img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+} /* One Stop, Four Possibilities Section */
+.possibilities {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to bottom, #fff, #fef9e7);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.possibilities h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stat .icon {
+  background-color: #fff;
+  border: 2px solid #007bff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  color: #007bff;
+  font-weight: bold;
+}
+.stat p {
+  margin-top: 15px;
+  font-size: 16px;
+} /* Why Choose Scissor Section */
+.why-choose {
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.why-choose h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+.features {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.feature {
+  width: 23%;
+}
+.feature .icon {
+  background-color: #007bff;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.feature p {
+  text-align: left;
+  font-size: 16px;
+} /* Pricing Section */
+.pricing {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to bottom, #fff, #e6f0ff);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.pricing h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.pricing p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.pricing-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.card {
+  background-color: #fff;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  padding: 30px;
+  width: 30%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.card.professional {
+  background-color: #003366;
+  color: #fff;
+  border: none;
+}
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.card .price {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.card li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+.card .get-started {
+  margin-bottom: 15px;
+  width: 100%;
+}
+.card.professional .get-started {
+  background-color: #fff;
+  color: #003366;
+}
+.card .see-plans {
+  background-color: transparent;
+  color: #007bff;
+  border: 1px solid #007bff;
+  box-shadow: none;
+  width: 100%;
+}
+.card.professional .see-plans {
+  color: #fff;
+  border-color: #fff;
+} /* Newsletter Signup Section */
+.newsletter {
+  background: linear-gradient(to bottom, #003366, #001933);
+  background-image: url("wavy-lines.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 20px;
+  text-align: center;
+}
+.form-container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+.newsletter h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.newsletter input {
+  padding: 12px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.newsletter button {
+  width: 100%;
+} /* FAQs Section */
+.faqs {
+  padding: 60px 20px;
+  background: linear-gradient(to bottom, #fff, #e6f0ff);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.faqs h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.accordion .item {
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+}
+.accordion h3 {
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0;
+}
+.accordion p {
+  display: none;
+  font-size: 16px;
+  margin-top: 10px;
+} /* Footer Section */
+footer {
+  background: linear-gradient(to bottom, #003366, #001933);
+  background-image: url("wavy-lines.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+footer .logo img {
+  height: 40px;
+  margin-bottom: 30px;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+.column h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+.column li {
+  margin: 8px 0;
+}
+.column a {
+  color: #fff;
+  font-size: 16px;
+}
+.social-icons {
+  text-align: center;
+}
+.social-icons a {
+  margin: 0 15px;
+}
+.social-icons img {
+  width: 24px;
+  height: 24px;
+} /* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  .pricing-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .stats {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,151 +1,203 @@
-
-* {
-  margin: 20px;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-
-
-}
-
 body {
   background-color: #f9f9f9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
 }
-
-.container {
-  display: flex;
-  width: 800px;
-  background: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  overflow: hidden;
-}.header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  padding: 20px;
+  background-color: #fff;
 }
-
 .logo {
-  font-size: 20px;
-  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 140px;
+  height: 40px;
+  
+  
 }
 
-.nav a {
+nav a {
   margin-right: 20px;
+  color: #0044cc;
   text-decoration: none;
-  color: #0073e6;
 }
-
-.nav a:last-child {
-  margin-right: 0;
-}
-
 .account-btn {
-  border: 1px solid #0073e6;
-  border-radius: 4px;
-  background: none;
-  padding: 5px 10px;
+  background-color: #ccc;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
   cursor: pointer;
-  color: #0073e6;
 }
-
-
-
-
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0;
+}
+.checkout-form,
+.plan-details {
+  width: 45%;
+  margin: 0 0px;
+  height: 60px;
+}
+.card {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  
+  font-size: 28px;
+  text-align: left;
+  margin-bottom: 30px;
+}
 .form-section {
-  flex: 1;
-  padding: 20px 30px;
-  border-right: 1px solid #ddd;
+  margin-bottom: 30px;
 }
-
-.form-section h2 {
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
-.form-group {
+.section-header {
+  display: flex;
+  align-items: center;
   margin-bottom: 15px;
 }
-
-.form-group label {
-  display: block;
-  font-size: 14px;
-  margin-bottom: 5px;
+.section-number {
+  width: 30px;
+  height: 30px;
+  background-color: #0044cc;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin-right: 10px;
 }
-
-.form-group input {
+h2 {
+  color: #333;
+  font-size: 20px;
+  margin: 0;
+}
+.input-group {
+  display: flex;
+  justify-content: space-between;
+}
+.input-group input {
+  width: 48%;
+}
+input {
   width: 100%;
   padding: 10px;
-  font-size: 14px;
+  margin-bottom: 15px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 5px;
 }
-
-.button {
-  width: 100%;
-  background-color: #2ca05a;
+.sub-labels {
+  display: flex;
+  justify-content: space-between;
+  color: #999;
+  font-size: 12px;
+}
+.buy-btn {
+  background-color: #00cc66;
   color: #fff;
-  padding: 12px;
-  font-size: 16px;
+  padding: 15px;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
   cursor: pointer;
+}
+.help-text {
+  text-align: center;
+  color: #999;
+  font-size: 14px;
   margin-top: 20px;
 }
-
-.button:hover {
-  background-color: #238c4b;
+.help-text a {
+  color: #999;
+  text-decoration: underline;
 }
-
-.info-section {
-  flex: 1;
-  background: linear-gradient(135deg, #0060c1, #004aad);
+.plan-details {
+  background-color: #0044cc;
   color: #fff;
-  padding: 30px;
+  padding: 40px;
+  border-radius: 10px;
+  width: 231px;
+  height: 490px;
 }
-
-.info-section h3 {
+.plan-card h2 {
   font-size: 24px;
   margin-bottom: 10px;
 }
-
-.info-section p {
+.price {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+.renewal {
   font-size: 14px;
-  line-height: 1.5;
   margin-bottom: 20px;
 }
-
-.info-section ul {
+.features {
   list-style: none;
+  padding: 0;
   margin-bottom: 20px;
 }
-
-.info-section ul li {
-  font-size: 14px;
+.features li {
   margin-bottom: 10px;
 }
-
+.checkmark {
+  color: #00ccff;
+  margin-right: 10px;
+}
+.upsell {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.upsell a {
+  color: #00ccff;
+  text-decoration: underline;
+}
 .testimonial {
   display: flex;
   align-items: center;
-  margin-top: 20px;
 }
-
 .testimonial img {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  margin-right: 10px;
+  margin-right: 15px;
+  filter: grayscale(100%);
 }
-
 .testimonial p {
   font-size: 14px;
-  margin: 0;
+  font-style: italic;
 }
-
-  
+.author {
+  font-size: 12px;
+  margin-top: 5px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #999;
+  font-size: 12px;
+}
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .checkout-form,
+  .plan-details {
+    width: 90%;
+    margin: 20px 0;
+  }
+}
